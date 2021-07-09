@@ -1,0 +1,12 @@
+Initializing document watcher...
+emp-app/app/Models/PicklistModel.php: {"insertSpaces":true,"tabSize":4}
+emp-app/app/Models/PicklistModel.php: Using EditorConfig core...
+app/Models/PicklistModel.php: editor.action.trimTrailingWhitespace
+emp-app/app/Http/Controllers/PicklistController.php: {"insertSpaces":true,"tabSize":4}
+emp-app/app/Http/Controllers/PicklistController.php: Using EditorConfig core...
+app/Http/Controllers/PicklistController.php: editor.action.trimTrailingWhitespace
+emp-app/app/Http/Controllers/PicklistController.php: {"insertSpaces":true,"tabSize":4}
+emp-app/routes/api.php: {"insertSpaces":true,"tabSize":4}
+emp-app/routes/api.php: {"insertSpaces":true,"tabSize":4}
+emp-app/routes/api.php: {"insertSpaces":true,"tabSize":4}
+emp-app/routes/api.php: {"insertSpaces":true,"tabSize":4}

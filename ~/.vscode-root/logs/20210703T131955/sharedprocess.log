@@ -1,0 +1,13 @@
+[2021-07-03 13:20:25.704] [sharedprocess] [error] [uncaught exception in sharedProcess]: The "path" argument must be of type string. Received type undefined: Error: The "path" argument must be of type string. Received type undefined
+    at b (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:14150)
+    at basename (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:22386)
+    at r.groupImportantTipsByExe (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:5088)
+    at r.collectTips (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:4567)
+    at async file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:3764
+[2021-07-03 13:20:59.231] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-07-05 01:20:29.429] [sharedprocess] [info] Installing extension: felixfbecker.php-debug
+[2021-07-05 01:20:30.399] [sharedprocess] [info] Downloaded extension: felixfbecker.php-debug undefined
+[2021-07-05 01:20:30.949] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.876c1dce-0fba-4ec2-9ec4-825888b52f53: felixfbecker.php-debug
+[2021-07-05 01:20:31.037] [sharedprocess] [info] Renamed to /root/.vscode/extensions/felixfbecker.php-debug-1.16.1
+[2021-07-05 01:20:31.041] [sharedprocess] [info] Installation completed. felixfbecker.php-debug
+[2021-07-05 01:20:31.156] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-debug

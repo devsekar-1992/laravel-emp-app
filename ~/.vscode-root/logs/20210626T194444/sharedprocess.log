@@ -1,0 +1,7 @@
+[2021-06-26 19:45:04.456] [sharedprocess] [error] [uncaught exception in sharedProcess]: The "path" argument must be of type string. Received type undefined: Error: The "path" argument must be of type string. Received type undefined
+    at b (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:14150)
+    at basename (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:22386)
+    at r.groupImportantTipsByExe (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:5088)
+    at r.collectTips (file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:4567)
+    at async file:///usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:3764
+[2021-06-26 19:45:40.716] [sharedprocess] [info] Starting to clean up unused language packs.

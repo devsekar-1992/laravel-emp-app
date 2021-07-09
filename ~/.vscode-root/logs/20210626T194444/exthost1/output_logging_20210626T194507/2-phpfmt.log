@@ -1,0 +1,8 @@
+26/6/2021, 9:50:05 pm
+---------------------
+php "/root/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/node_modules/phpfmt/fmt.phar" --psr2 --indent_with_space=4 /tmp/temp-ibtkqvtn.php
+
+26/6/2021, 9:50:58 pm
+---------------------
+php "/root/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/node_modules/phpfmt/fmt.phar" --psr2 --indent_with_space=4 /tmp/temp-pbxurwjzsq.php
+

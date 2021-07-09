@@ -1,0 +1,40 @@
+[2021-07-03 13:20:22.458] [exthost] [info] extension host started
+[2021-07-03 13:20:22.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-07-03 13:20:22.732] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-07-03 13:20:23.764] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-07-03 13:20:23.764] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-07-03 13:20:24.695] [exthost] [info] ExtensionService#_doActivateExtension amiralizadeh9480.laravel-extra-intellisense {"startup":false,"extensionId":{"value":"amiralizadeh9480.laravel-extra-intellisense","_lower":"amiralizadeh9480.laravel-extra-intellisense"},"activationEvent":"onLanguage:php"}
+[2021-07-03 13:20:24.695] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js
+[2021-07-03 13:20:25.277] [exthost] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":false,"extensionId":{"value":"codingyu.laravel-goto-view","_lower":"codingyu.laravel-goto-view"},"activationEvent":"onLanguage:php"}
+[2021-07-03 13:20:25.277] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/codingyu.laravel-goto-view-1.3.4/out/src/extension
+[2021-07-03 13:20:27.268] [exthost] [info] ExtensionService#_doActivateExtension kokororin.vscode-phpfmt {"startup":false,"extensionId":{"value":"kokororin.vscode-phpfmt","_lower":"kokororin.vscode-phpfmt"},"activationEvent":"onLanguage:php"}
+[2021-07-03 13:20:27.268] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/out/src/extension
+[2021-07-03 13:20:30.636] [exthost] [info] ExtensionService#_doActivateExtension tiansin.vscode-laravel-assist {"startup":false,"extensionId":{"value":"tiansin.vscode-laravel-assist","_lower":"tiansin.vscode-laravel-assist"},"activationEvent":"onLanguage:php"}
+[2021-07-03 13:20:30.636] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/tiansin.vscode-laravel-assist-0.1.7/out/extension.js
+[2021-07-03 13:20:33.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-03 13:20:33.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-07-03 13:20:33.233] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-03 13:20:33.233] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-07-03 13:20:33.339] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2021-07-03 13:20:33.339] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-07-03 13:20:33.785] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller {"startup":true,"extensionId":{"value":"stef-k.laravel-goto-controller","_lower":"stef-k.laravel-goto-controller"},"activationEvent":"*"}
+[2021-07-03 13:20:33.785] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/extension
+[2021-07-03 13:20:33.830] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-07-03 13:20:33.830] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-07-03 13:20:37.299] [exthost] [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan {"startup":true,"extensionId":{"value":"ryannaddy.laravel-artisan","_lower":"ryannaddy.laravel-artisan"},"activationEvent":"workspaceContainsTimeout:**/artisan"}
+[2021-07-03 13:20:37.300] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ryannaddy.laravel-artisan-0.0.28/out/src/extension
+[2021-07-03 13:20:38.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-03 13:20:38.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-03 13:20:38.571] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-03 13:20:38.571] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-03 13:20:38.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-03 13:20:38.720] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-03 13:20:39.272] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-03 13:20:39.272] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-03 13:20:40.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-03 13:20:40.165] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-07-03 13:20:40.279] [exthost] [info] eager extensions activated
+[2021-07-03 13:20:40.368] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-07-03 13:20:40.369] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-07-05 09:57:05.916] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-05 09:57:07.389] [exthost] [info] exiting with code 0
