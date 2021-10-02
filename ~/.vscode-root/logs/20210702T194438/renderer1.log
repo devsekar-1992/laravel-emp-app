@@ -1,5 +1,0 @@
-[2021-07-02 19:44:56.158] [renderer1] [warning] UNRESPONSIVE extension host, 'tiansin.vscode-laravel-assist' took 100% of 5068.298ms, saved PROFILE here: 'file:///tmp/exthost-8e3ab7.cpuprofile' [{"id":"tiansin.vscode-laravel-assist","total":5068120,"percentage":100}]
-[2021-07-02 19:44:56.489] [renderer1] [error] Server returned 422: Error: Server returned 422
-    at f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:633:130648)
-    at o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1543:52393)
-    at async n._processCpuProfile (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1589:22461)

@@ -1,1 +1,0 @@
-[2021-06-27 20:58:11.827] [renderer1] [warning] UNRESPONSIVE extension host, 'amiralizadeh9480.laravel-extra-intellisense' took 100% of 94.682ms, saved PROFILE here: 'file:///tmp/exthost-699d6e.cpuprofile' [{"id":"amiralizadeh9480.laravel-extra-intellisense","total":94517,"percentage":100}]
