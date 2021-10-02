@@ -1,1 +1,0 @@
-[2021-07-01 20:20:12.226] [renderer1] [warning] UNRESPONSIVE extension host, 'tiansin.vscode-laravel-assist' took 82% of 5085.556ms, saved PROFILE here: 'file:///tmp/exthost-339282.cpuprofile' [{"id":"kokororin.vscode-phpfmt","total":667645,"percentage":13},{"id":"self","total":229573,"percentage":5},{"id":"tiansin.vscode-laravel-assist","total":4187831,"percentage":82}]
