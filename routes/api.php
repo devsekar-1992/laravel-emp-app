@@ -17,7 +17,11 @@ Route::group(['prefix' => 'user'], function () {
     Route::post('auth','UserController@index');
     Route::post('create','UserController@store');
 });
-Route::group(['middleware' => ['auth:sanctum']], function () {
+Route::group(['prefix'=>'internal'],function(){
+	Route::post('create','IpController@create');
+	Route::post('remove','IpController@destroy');
+});
+Route::group(['middleware' => ['auth:sanctum','ipcheck']], function () {
     Route::group(['prefix' => 'task'], function () {
         Route::get('list','TaskController@index');
         Route::post('add','TaskController@store');

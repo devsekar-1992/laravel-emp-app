@@ -49,20 +49,23 @@ class EmpReviewChecklist extends Model
             $userId = auth('sanctum')->user()->id;
             $type = $data['request_method'];
             $insertData = [
-                'main_categories_id' => $data['main_category_id'],
-                'checklist' => $data['checklist'],
+                'main_categories_id' => $data['review_type'],
+                'checklist' => $data['review_name'],
                 'updated_by' => $userId,
-                'created_at' => $currentDateTime,
                 'updated_at' => $currentDateTime,
             ];
             if ($type == 'add') {
                 $insertData['created_by'] = $userId;
             }
             if ($type == 'update') {
-                $status = EmpReviewChecklist::where('id', '=', $data['emp_id'])->update($insertData);
+                $status = EmpReviewChecklist::where('id', '=', $data['id'])->update($insertData);
             } else if ($type == 'add') {
                 $status = EmpReviewChecklist::create($insertData);
             }
+            return [
+                'id'=>$status,
+                'status'=>true
+            ];
         } catch (Exception $e) {
             throw ($e->getMessage());
         }
@@ -73,14 +76,21 @@ class EmpReviewChecklist extends Model
     public static function deleteReviewChecklist($data)
     {
         try {
-            if (!empty($data['emp_id'])) {
-                $deleteStatus = EmpReviewChecklist::where('id', '=', $data['emp_id'])->delete();
+            $status=false;
+            $message='Cannot find id';
+            if (!empty($data['id'])) {
+                $deleteStatus = EmpReviewChecklist::where('id', '=', $data['id'])->delete();
                 if ($deleteStatus) {
-                    return 'Deleted Successfully';
+                    $status=true;
+                    $message='Deleted Successfully';
                 } else {
-                    return 'Not Deleted Successfully';
+                    $message='Not Deleted Successfully';
                 }
             }
+            return [
+                'data'=>$message,
+                'status'=>$status
+            ];
         } catch (Exception $e) {
             throw ($e->getMessage());
         }
