@@ -15,7 +15,7 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function login(Request $request)
     {
         return User::authUser($request->all());
     }

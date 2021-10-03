@@ -14,26 +14,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group(['prefix' => 'user'], function () {
-    Route::post('auth','UserController@index');
+    Route::post('auth','UserController@login');
     Route::post('create','UserController@store');
 });
 Route::group(['prefix'=>'internal'],function(){
 	Route::post('create','IpController@create');
-	Route::post('remove','IpController@destroy');
+	Route::delete('remove','IpController@destroy');
 });
 Route::group(['middleware' => ['auth:sanctum','ipcheck']], function () {
     Route::group(['prefix' => 'task'], function () {
         Route::get('list','TaskController@index');
         Route::post('add','TaskController@store');
-        Route::post('update','TaskController@update');
+        Route::patch('update','TaskController@update');
         Route::get('view','TaskController@show');
         Route::get('edit','TaskController@edit');
     });
     Route::prefix('review_checklist')->group(function () {
         Route::get('list', 'EmpReviewChecklistsController@index');
         Route::post('add', 'EmpReviewChecklistsController@store');
-        Route::post('update', 'EmpReviewChecklistsController@store');
-        Route::post('delete', 'EmpReviewChecklistsController@destroy');
+        Route::patch('update', 'EmpReviewChecklistsController@store');
+        Route::delete('delete', 'EmpReviewChecklistsController@destroy');
     });
     Route::group(['prefix' => 'picklist'], function () {
         Route::get('list','PicklistController@show');

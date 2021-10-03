@@ -1,7 +1,7 @@
-# Task Review Management
+# Task Review Management API
 
 
-Task Review Management is a cloud-enabled, mobile-ready, offline-storage compatible,
+Task Review Management API is sync with openproject application with filtered status against users
 
 
 
@@ -11,4 +11,5 @@ Task Review Management is a cloud-enabled, mobile-ready, offline-storage compati
 - OAuth verification
 - Track review history
 - Localization 
+- Users Creation
 
