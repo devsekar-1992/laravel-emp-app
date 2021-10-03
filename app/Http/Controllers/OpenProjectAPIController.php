@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Models\OpenProjectModel;
 use Illuminate\Http\Request;
+use App\Http\Traits\ResponseTraits;
 
 class OpenProjectAPIController extends Controller
 {
+	use ResponseTraits;
     /**
      * Display a listing of the resource.
      *
@@ -36,8 +38,12 @@ class OpenProjectAPIController extends Controller
      */
     public function show(Request $request)
     {
-       // OpenProjectModel::syncOpenProjectUsers();
-        OpenProjectModel::syncOpenProjectsTask();
+	    $result=OpenProjectModel::syncOpenProjectsTask();
+	    if($result['status']){
+		    return $this->sendSuccessResponse('200',$result['msg']);
+	    } else {
+		    return $this->sendCustomMessage('500',$result['msg']);
+	    }
     }
 
     /**

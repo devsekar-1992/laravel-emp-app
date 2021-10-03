@@ -22,6 +22,8 @@ class OpenProjectModel extends Model
      */
     public static function syncOpenProjectsTask()
     {
+	$sync=0;
+	$status=false;
         $openProjectUrl=config('openproject.api_url') . 'projects/' . config('openproject.project_id') . '/work_packages/?pageSize=' . config('openproject.pageSize') . '&filters=[{"status":{"operator":"=","values":["22","34"]}}]';
         $response = Http::withHeaders([
             'Authorization' => 'Basic ' . config('openproject.api_key'),
@@ -77,10 +79,19 @@ class OpenProjectModel extends Model
                         }
                         $isAnyPendingAgainstTask = TaskReviewModel::where('task_id', '=', $taskId)->where('status', '=', '3')->where('review_type','=',$reviewRequest['review_type'])->count();
                         if ($isAnyPendingAgainstTask == 0) {
-                            TaskReviewModel::insert($reviewRequest);
-                        }
+                            $result=TaskReviewModel::insert($reviewRequest);
+			}
+			$sync++;
                     }
                 }
+		if ($sync > 0) {
+			$status = true;
+			$message = 'Total ' . $sync . ' users are synced successfully';
+		}
+		return [
+			'status' => $status,
+			'msg' => $message,
+		];
             }
         }
     }
