@@ -44,7 +44,7 @@ class EmpReviewChecklistsController extends Controller
     public function store(Request $request)
     {
         $data=EmpReviewChecklist::storeReviewChecklist($request->all());
-        if(count($data)) {
+        if($data['status']) {
             return $this->sendSuccessResponse(200,$data);
         } else {
             return $this->sendCustomMessage(500,'Failed to insert record');
